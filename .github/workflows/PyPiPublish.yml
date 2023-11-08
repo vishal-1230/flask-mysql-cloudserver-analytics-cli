@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8.2  # Use the Python version you require
+          python-version: 3.8.x # Use the Python version you require
 
       - name: Install build dependencies
         run: |
