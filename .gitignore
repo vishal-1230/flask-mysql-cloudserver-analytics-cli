@@ -2,3 +2,5 @@
 bin
 lib
 mycreds.secret
+dist
+flask_mysql_analytics.egg-info

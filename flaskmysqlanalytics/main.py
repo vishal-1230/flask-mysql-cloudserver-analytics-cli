@@ -200,7 +200,7 @@ def execute_query(query):
     ssh.close()
     return data
 
-if __name__ == '__main__':
+def start():
     parser = argparse.ArgumentParser(description='Get data from server')
     parser.add_argument('data_type', type=str, help='Type of data to retrieve : fogs, ucount, udetails, bcount, mcount, chatted_people_count, users')
     parser.add_argument('--email_id', type=str, help='Email ID of user to retrieve details for')
@@ -330,6 +330,9 @@ export SERVER_MYSQL_DATABASE=<server_mysql_database>
             print('Table or columns not provided')
     else:
         print('Invalid data type provided')
+
+if __name__ == '__main__':
+    start()
 
 # latest users (optional count of users, default 10, optional columns, default name, email_id, createdAt)
 # latest bots with username (")
