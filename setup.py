@@ -5,6 +5,7 @@ setup(
     name='flask-mysql-analytics',
     version='1.0',
     packages=find_packages(),
+    long_description="Test desc",
     install_requires=[
         "paramiko",
         "argparse",
