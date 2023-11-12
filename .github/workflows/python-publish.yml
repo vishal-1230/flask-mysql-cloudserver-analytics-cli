@@ -36,5 +36,5 @@ jobs:
     - name: Publish package
       uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
       with:
-        user: __Token__
-        password: pypi-AgEIcHlwaS5vcmcCJDQ5NGM3MmZkLTI5NzMtNGM5ZS1iY2JlLTc3MGJmYTkyOTgzMwACKlszLCJiM2Y4M2VkNy03MWIzLTQ1MDYtYWZmNy1lNjg2MTM1MGU5ZjUiXQAABiA1reO6xQ49J2Bn8Mx0kw2PGBFkbxji8CCRXX5mFTMlTg
+        user: __token__
+        password: ${{}} 
